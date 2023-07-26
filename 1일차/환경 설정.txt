@@ -1,0 +1,2 @@
+* 환경 설정 : Ctrl + Alt + S 단축 키
+  -> File 메뉴 -> Settings 메뉴 항목

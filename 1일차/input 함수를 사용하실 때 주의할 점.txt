@@ -1,0 +1,15 @@
+* input( ) 함수를 사용하실 때 주의할 점
+
+1. 데이터의 사용 목적 정하기(용도)
+예) 사용자가 10을 입력하면
+    1+2+3+...+10 산술 덧셈 계산
+
+input_number = input()
+input_number = int(input_number)
+또는
+input_number = int(input())
+
+
+
+
+
