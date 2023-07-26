@@ -1,0 +1,31 @@
+* 탐색(Searching) 알고리즘
+-> 순차(Sequencial Searching)
+   : 첫 번째 노드 부터 -> 마지막 번째 노드 까지 차례대로
+     방문
+
+1. 현재 노드의 주소를 보관하고 있는 포인터 변수가 필요
+-> 이유 : 헤드 포인터 변수를 사용하게 되면
+   첫 번째 노드의 주소를 잃어버리기 때문
+예) if self.head_ptr is None:
+       print("현재 노드가 없습니다!!")
+    else:
+       print("탐색할 노드 객체가 있습니다!!")
+       while self.head_ptr is not None:
+             print("현재 노드들을 탐색 중에 있습니다.")
+             print("현재 방문(접근)한 노드가 갖고 있는 ")
+             print("데이터는 ", self.head_ptr.data)
+             # 현재 헤드 포인터 변수와 연결되어 있는
+             # 두 번째 이후의 노드의 주소로 이동하기
+             self.head_ptr = self.head_ptr.next
+             # 위 명령어가 실행되면 
+             # 두 번째 노드의 주소로 변경
+
+
+
+
+
+
+
+
+
+

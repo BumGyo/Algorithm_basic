@@ -1,0 +1,19 @@
+* 노드 클래스를 정의 : 데이터 + 주소 저장
+
+* 노드 클래스를 사용하는 클래스를 정의
+-> 이름은 MyLinkedListClass
+class MyLinkedListClass:
+    # head 포인터 변수를 멤버 변수로 선언하기
+    # -> 무조건 첫 번째 데이터의 주소를 보관하는 변수
+    # 초기화 함수
+    def __init__(self):
+        print("연결 리스트 클래스를 초기화")
+        self.head_ptr = None
+        print("헤드 포인터 멤버 변수를 새로 생성")
+
+linked_list_object = MyLinkedListClass()
+
+
+
+
+  

@@ -1,0 +1,20 @@
+* 연결 리스트 예제에서 사용할 클래스 정의하기
+
+class MyNodeClass:
+    # 초기화 함수 정의
+    def  __init__(self, data_p, next_p = None):
+       # 인스턴스 변수를 생성 : 
+       # self + 점(.) + 변수이름 = 값
+       self.data = data_p
+       self.next = next_p
+       print("하나의 노드를 만들었습니다!!")
+       print("인스턴스 멤버 변수인 data와 next를 생성")
+       print("각각 값을 지정하였습니다!!")
+       print("데이터는 ", self.data)
+
+# __init__( ) 함수가 호출 : data_p 매개 변수에 값을 전달
+변수이름1 = 클래스이름( 1 )
+변수이름2 = 클래스이름( 2 )
+변수이름2 = 클래스이름( 3 )
+
+
