@@ -1,0 +1,11 @@
+* 새로운 함수를 만들어서 집합 변수에
+  저장되어 있는 모든 값들을
+  읽어와서 화면에 출력하기
+def  show_data_set(set_p):
+     len_set_p = len(set_p)
+     if len_set_p == 0:
+        print("현재 집합 변수에 데이터가 없음")
+        return False
+     print(set_p)
+     return True
+

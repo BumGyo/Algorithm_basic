@@ -1,0 +1,29 @@
+* 리스트 변수에서 동명 이인을 찾기 위한
+  프로그램 구조 만들기
+
+1. for i in range(0, 데이터의갯수 - 1)
+예) student_name_list = ["","","","",""]
+-> 기준 이름의 위치 번호를 제어 : 
+   0 ~ 3
+2. 비교 대상 데이터들의 위치 번호를 제어
+-> 기준 이름의 위치 번호 + 1 ~ 데이터의
+   마지막 번호
+-> for j in range(i + 1, 데이터의 갯수)
+
+3. if 문을 사용해서 동명 이인이 있는지를 검사
+-> if student_name_list[i] == 
+      student_name_list[j] :
+      # 같은 이름을 발견하면 집합 변수에 저장
+    student_name_set.add(student_name_list[j])
+
+
+
+
+
+
+
+
+
+
+
+

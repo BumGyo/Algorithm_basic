@@ -1,0 +1,11 @@
+* 3!의 예를 설명드리겠습니다!!
+
+my_fact(3) -> 
+    else: return n * my_fact(n-1)
+          -> return 3 * my_fact(3-1)
+             -> return 3 * 2 * my_fact(2-1)
+                -> return 3 * 2 * 1
+
+* 스택(Stack) 메모리 : 
+  데이터의 입력 순서의 반대 순서로
+  데이터를 꺼내올 수 있는 메모리

@@ -1,0 +1,17 @@
+# 새로운 함수를 만들어서 동명 이인 처리
+  알고리즘을 작성하겠습니다!!
+1) 이름 : getSameName
+def  getSameName(list_p1, set_p1):
+      pass
+-> 2개의 파라메터를 전달(사용)
+
+2) global 명령어를 사용 : 매개 변수 없이
+   전역 변수를 사용할 수 있게 해주는 명령어
+def  getSameName():
+     global 전역변수이름1, 전역변수이름2
+
+
+
+
+
+
