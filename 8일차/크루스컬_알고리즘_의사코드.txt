@@ -1,0 +1,11 @@
+﻿크루스컬 알고리즘의 Pseudocode(의사코드: 거짓 코드)
+The following code is implemented with disjoint-set data structure:
+KRUSKAL(G):
+1 A = ∅
+2 foreach v ∈ G.V:
+3    MAKE-SET(v)
+4 foreach (u, v) ordered by weight(u, v), increasing:
+5    if FIND-SET(u) ≠ FIND-SET(v):
+6       A = A ∪ {(u, v)}
+7       UNION(u, v)
+8 return A

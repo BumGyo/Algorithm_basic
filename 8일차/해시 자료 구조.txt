@@ -1,0 +1,43 @@
+* 해시 자료 구조 : 
+   배열(순차 자료 구조) + 연결 리스트
+
+* 배열(Array) : 해시 테이블
+-> 데이터의 총 갯수를 정해서 배열을 준비
+
+예) // 최대 1000개의 데이터를 보관할 수 있는 배열(해시 테이블)
+    // 준비하기
+my_hash_table = []
+또는
+my_hash_table = list()
+
+* 해시 함수 : 해시 테이블에 데이터가 저장될 위치를 계산
+-> def my_hash_func(self, value):
+       # 배열 my_hash_table의 인덱스 값을 반환하도록 명령어를
+       # 작성 :
+       len_hash_table = len(my_hash_table)
+       if len_hash_table == 0:
+          print("해시 테이블의 크기가 0")
+          return None
+       else:
+          print("해시 테이블의 크기는 ", len_hash_table)
+          # 파이썬에서 제공해주는 hash( ) 함수를 호출
+          result = hash(value) % len_hash_table
+          return result
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
