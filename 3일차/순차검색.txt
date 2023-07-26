@@ -1,0 +1,13 @@
+def sequential_search(s, key):
+    i = 0
+    while i < len(s):
+        if s[i] == key:
+            return i
+        i += 1
+    return -1
+
+def sequential_search2(s, key):
+	for idx, val in enumerate(s):
+		if val == key:
+			return idx
+	return -1
