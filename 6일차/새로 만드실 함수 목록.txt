@@ -1,0 +1,28 @@
+* 새로 만드실 함수 목록
+
+1. 새로운 트리 노드를 만들어 주는 함수 :
+   create_new_node( ) 함수
+
+1) 위치 : MyTreeClass 클래스 안에 만드세요!!
+   def create_new_node(self, value_p ):
+       print("create_new_node() 함수가 호출됨")
+
+2. 1번에서 만든 함수를 사용하는 함수 :
+   insert_new_node( ) 함수
+  
+1) 위치 : MyTreeClass 클래스 안에 만드세요!!
+   def insert_new_node(self, value_p):
+       print("insert_new_node() 함수가 호출됨")
+
+3. 초기화 함수 정의하기 : 
+    def __init__(self):
+        print("__init__() 함수가 호출됨")
+        self.root_ptr = None
+        print("루트 노드의 주소를 None으로 설정(초기화)")
+-> MyTreeClass 클래스 안에 만들겠습니다.
+
+
+
+
+
+

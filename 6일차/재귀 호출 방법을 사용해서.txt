@@ -1,0 +1,31 @@
+* 재귀 호출 방법을 사용해서
+  중위 탐색 알고리즘을 구현하기
+-> 시작은 self.root_ptr 노드
+
+# trav : traversal(방문 또는 탐색 또는 운행)
+# node_p 매개 변수가 처음으로 받는 값은 루트 노드
+def in_order_trav(self, node_p):
+   print("중위 탐색 알고리즘을 구현한 함수가 호출됨")
+   if node_p is not None:
+      print("먼저 왼쪽 자식 노드들을 방문!!")
+      # node_p.left_child : 왼쪽 자식 노드의 주소
+      in_order_trav(node_p.left_child)
+      # 위에 있는 함수가 실행을 마치고 다음에 실행될 명령어를
+      # 작성하면 됩니다!!
+      # 화면에 데이터를 출력
+      print("방문한 노드가 갖고 있는 데이터는 ",   
+             node_p.data) # 루트 노드 표현
+      # 루트 노드에 연결되어 있는 오른쪽 자식 노드들을 방문
+      # node_p.right_child : 오른쪽 자식 노드 주소
+      in_order_trav(node_p.right_child)
+      
+
+
+
+
+
+
+
+
+
+

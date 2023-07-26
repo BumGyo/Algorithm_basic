@@ -1,0 +1,17 @@
+* 중위 탐색 알고리즘을 슈도 코드로 작성하기
+  -> 슈도 코드 : 거짓 코드 : pseudo code : 의사 코드
+
+1) 재귀호출 방법을 사용해서 새로운 함수를 정의하기
+
+가. def 함수이름 ( 매개 변수 들을 선언 ) :
+       명령어
+-> 하나의 함수로 완성되게
+
+나. 2개 이상의 함수가 협동해서 기능을 수행하게
+예) def  insert_new_node(self, new_node_p):
+예) def _insert_new_node(self, node_p, new_node_p):
+
+
+
+
+
